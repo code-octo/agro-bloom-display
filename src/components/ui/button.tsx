@@ -10,6 +10,9 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
+        whatsapp: "bg-whatsapp text-whatsapp-foreground shadow-md hover:bg-whatsapp/90",
+        cream: "bg-cream text-forest shadow-md hover:bg-cream/90",
+        heroOutline: "border border-cream/50 bg-forest/25 text-cream backdrop-blur-sm hover:bg-cream hover:text-forest",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
           "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
@@ -20,8 +23,9 @@ const buttonVariants = cva(
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
-        lg: "h-10 rounded-md px-8",
-        icon: "h-9 w-9",
+        lg: "h-12 rounded-md px-6 text-sm",
+        xl: "h-14 rounded-md px-7 text-base",
+        icon: "h-11 w-11",
       },
     },
     defaultVariants: {
