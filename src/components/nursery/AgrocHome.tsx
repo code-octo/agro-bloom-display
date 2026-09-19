@@ -46,10 +46,10 @@ function SectionHeading({ eyebrow, title, text, light = false, align = "left" }:
   </div>;
 }
 
-function Hero() { return <section id="home" className="relative min-h-[760px] overflow-hidden pt-20 sm:min-h-[800px]">
+function Hero() { return <section id="home" className="relative flex min-h-[100svh] items-center overflow-hidden pt-20 pb-10">
   <img src={heroImage} alt="A sunlit tropical plant nursery filled with fruit plants and flowers" width={1920} height={1280} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
   <div className="absolute inset-0 bg-hero-overlay" />
-  <div className="relative mx-auto flex min-h-[680px] max-w-7xl items-center px-4 py-16 sm:min-h-[720px] sm:px-6 lg:px-8">
+  <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
     <div className="max-w-3xl text-cream">
       <div className="mb-6 inline-flex items-center gap-2 border-l-2 border-leaf pl-3 text-sm font-semibold uppercase tracking-[0.14em]"><Sprout className="size-4" /> Plants for every space</div>
       <h1 className="font-display text-5xl font-semibold leading-[1.02] sm:text-7xl lg:text-8xl">Grow Something<br/><em className="font-normal text-leaf">Beautiful.</em></h1>
