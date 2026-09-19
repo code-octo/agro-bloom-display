@@ -7,8 +7,8 @@ import storyImage from "@/assets/agroc-story.jpg";
 
 export const business = {
   name: "Agroc",
-  phone: "+94 XX XXX XXXX",
-  whatsappNumber: "94XXXXXXXXX",
+  phone: "+94 76 446 0030",
+  whatsappNumber: "94764460030",
   email: "hello@example.lk",
   location: "Sri Lanka",
   hours: "Business Hours: Editable",
